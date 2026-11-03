@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+        content="Blog sobre aplicaciones en red, el modelo cliente-servidor y los fundamentos de HTML y CSS.">
+  <title>Conectados | Aplicaciones en red</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+  <header id="inicio" class="cabecera">
+    <div class="contenedor">
+      <p class="etiqueta">BLOG DE TECNOLOGÍA</p>
+      <h1>Conectados</h1>
+      <p>Un espacio para aprender cómo funcionan las aplicaciones en red.</p>
+    </div>
+  </header>
+
+  <nav class="menu" aria-label="Navegación principal">
+    <a href="#inicio">Inicio</a>
+    <a href="#aplicaciones">Aplicaciones en red</a>
+    <a href="#cliente-servidor">Cliente-servidor</a>
+    <a href="#html-css">HTML y CSS</a>
+    <a href="#acerca">Acerca del blog</a>
+  </nav>
+
+  <main class="contenedor">
+    <section class="introduccion" aria-labelledby="bienvenida">
+      <p class="etiqueta">APRENDER DESDE LO BÁSICO</p>
+      <h2 id="bienvenida">La tecnología detrás de cada conexión</h2>
+      <p>
+        Consultar el correo, participar en una videollamada o ingresar
+        a una plataforma educativa son actividades cotidianas.
+        En estas tres entradas exploramos los conceptos que permiten
+        comprender cómo funcionan estos servicios.
+      </p>
+    </section>
+
+    <article id="aplicaciones" class="entrada">
+      <div class="contenido-entrada">
+        <p class="etiqueta">ENTRADA 01 · CONCEPTOS BÁSICOS</p>
+        <h2>¿Qué es una aplicación en red?</h2>
+        <p class="fecha">
+          Publicado el <time datetime="2026-11-02">2 de noviembre de 2026</time>
+        </p>
+
+        <img src="imagenes/aplicaciones.png"
+             alt="Equipos conectados a una red para intercambiar información"
+             class="imagen-entrada">
+
+        <p>
+          Una aplicación en red es un programa que utiliza una red de
+          comunicaciones para intercambiar información con otros equipos
+          o servicios. Esta comunicación puede realizarse a través de
+          Internet o dentro de una red local, como la de una institución
+          educativa o una empresa.
+        </p>
+        <p>
+          Algunos ejemplos son el correo electrónico, las plataformas
+          educativas y las aplicaciones de mensajería. Aunque sus
+          funciones son diferentes, todas necesitan enviar y recibir
+          datos para ofrecer sus servicios.
+        </p>
+
+        <h3>Un ejemplo cotidiano</h3>
+        <p>
+          Cuando ingreso a una plataforma educativa para consultar una
+          actividad, mi navegador solicita información al servidor.
+          Este procesa la solicitud y devuelve el contenido que aparece
+          en la pantalla.
+        </p>
+        <p>
+          Una ventaja de estas aplicaciones es que permiten compartir
+          recursos y acceder a información desde distintos lugares.
+          Sin embargo, sus funciones en línea dependen de la conexión
+          y de la disponibilidad del servicio.
+        </p>
+
+        <a href="#inicio" class="volver">Volver al inicio ↑</a>
+      </div>
+    </article>
+
+    <article id="cliente-servidor" class="entrada">
+      <div class="contenido-entrada">
+        <p class="etiqueta">ENTRADA 02 · COMUNICACIÓN</p>
+        <h2>¿Cómo funciona el modelo cliente-servidor?</h2>
+        <p class="fecha">
+          Publicado el <time datetime="2026-11-02">2 de noviembre de 2026</time>
+        </p>
+
+        <img src="imagenes/cliente-servidor.png"
+             alt="Representación de la comunicación entre un cliente y un servidor"
+             class="imagen-entrada">
+
+        <p>
+          El modelo cliente-servidor organiza la comunicación entre
+          dos participantes. El cliente solicita un recurso o servicio
+          y el servidor recibe la solicitud, la procesa y envía una
+          respuesta. Un navegador web puede actuar como cliente,
+          mientras que un servidor web proporciona páginas y archivos.
+        </p>
+
+        <h3>El recorrido de una solicitud</h3>
+        <ol>
+          <li>El usuario abre una dirección web en el navegador.</li>
+          <li>El navegador envía una solicitud al servidor.</li>
+          <li>El servidor procesa la petición y devuelve una respuesta.</li>
+          <li>El navegador interpreta el contenido y muestra la página.</li>
+        </ol>
+
+        <p>
+          En la Web, este intercambio utiliza HTTP o su versión
+          protegida mediante TLS, conocida como HTTPS. HTTPS cifra
+          los datos durante su transmisión, lo que ayuda a proteger
+          la información intercambiada.
+        </p>
+        <p>
+          Por ejemplo, al consultar un catálogo de productos, el
+          navegador solicita los datos y el servidor responde con
+          la información disponible. Si el servicio deja de funcionar,
+          el cliente no podrá obtener nuevas respuestas hasta que
+          se restablezca.
+        </p>
+
+        <a href="#inicio" class="volver">Volver al inicio ↑</a>
+      </div>
+    </article>
+
+    <article id="html-css" class="entrada">
+      <div class="contenido-entrada">
+        <p class="etiqueta">ENTRADA 03 · DESARROLLO WEB</p>
+        <h2>HTML y CSS: estructura y presentación de una página</h2>
+        <p class="fecha">
+          Publicado el <time datetime="2026-11-02">2 de noviembre de 2026</time>
+        </p>
+
+        <img src="imagenes/html-css.png"
+             alt="Código HTML y CSS utilizado para construir una página web"
+             class="imagen-entrada">
+
+        <p>
+          HTML es un lenguaje de marcado que permite organizar el
+          contenido de una página web. Mediante sus etiquetas se
+          definen títulos, párrafos, imágenes, enlaces y secciones.
+          Esta estructura ayuda a identificar la función de cada
+          elemento dentro del documento.
+        </p>
+        <p>
+          CSS es un lenguaje de estilos que define la presentación
+          de ese contenido. Permite establecer colores, tamaños
+          de letra, márgenes y distribución de los elementos.
+          También ayuda a adaptar el diseño a diferentes tamaños
+          de pantalla.
+        </p>
+
+        <h3>¿Cómo se complementan?</h3>
+        <p>
+          En este blog, HTML organiza el encabezado, el menú y las
+          entradas. La hoja de estilos CSS define su apariencia.
+          Mantener el contenido y los estilos en archivos separados
+          facilita modificar el diseño sin tener que reescribir
+          los textos.
+        </p>
+        <p>
+          Los enlaces del menú utilizan identificadores de las
+          secciones para desplazarse dentro de la misma página.
+          Esta navegación funciona con HTML y no necesita JavaScript.
+          Un blog estático puede publicarse sin una base de datos
+          ni código de servidor que genere sus páginas.
+        </p>
+
+        <a href="#inicio" class="volver">Volver al inicio ↑</a>
+      </div>
+    </article>
+
+    <section id="acerca" class="acerca" aria-labelledby="titulo-acerca">
+      <p class="etiqueta">SOBRE ESTE ESPACIO</p>
+      <h2 id="titulo-acerca">Acerca del blog</h2>
+      <p>
+        Conectados es un blog académico de la asignatura Desarrollo
+        de Aplicaciones en Red. Su propósito es explicar conceptos
+        básicos de redes y desarrollo web mediante ejemplos sencillos.
+      </p>
+      <p>
+        El sitio está construido con HTML y CSS, con una estructura
+        que permite navegar entre sus tres publicaciones.
+      </p>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <p>Conectados · Blog académico · 2026</p>
+    <a href="#inicio">Volver al inicio ↑</a>
+  </footer>
+</body>
+</html>
